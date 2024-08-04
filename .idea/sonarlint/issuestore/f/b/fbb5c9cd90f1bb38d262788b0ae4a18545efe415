@@ -1,0 +1,19 @@
+
+
+java:S2259Ò"GA "NullPointerException" could be thrown; "requester" is nullable here.(ı°Åƒÿÿÿÿÿ8àé¾é‘2J$b2249d0e-5652-418a-87ce-0eee29075acc
+p
+java:S1874".Remove this use of "Locale"; it is deprecated.(¯ò–-8ó‡é‘2J$d5f8c272-57f9-4d20-a1d8-46d250a79c8f
+v
+java:S1481,".Remove this unused "adminUser" local variable.(çõúÿÿÿÿ8õ‡é‘2J$fccb4c68-4bb3-4c9b-b9f6-3c90ca5f42e3
+~	java:S1257"<This block of commented-out lines of code should be removed.(Àø‘˜8ö‡é‘2J$262d23e9-f3d1-4d00-a5cc-9fb5cf91bb9e
+~
+java:S6437V"6Revoke and change this password, as it is compromised.(ë²çÅøÿÿÿÿ8÷‡é‘2J$4b830597-93a7-4757-b2b5-b39f17cfdd96
+x
+java:S1172ª"/Remove this unused method parameter "benutzer".(ÕÊş¾şÿÿÿÿ8ü‡é‘2J$e88efa5e-63bf-4411-9451-afe1dc22b494
+„	java:S125­"<This block of commented-out lines of code should be removed.(À»®ìúÿÿÿÿ8ü‡é‘2J$c6c900a5-2ac5-4534-9030-bfa7879c26be
+¾
+java:S6204Ş"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8…è£é‘2J$3e1d9bfd-532f-45c5-be60-ad53b628f272
+¾
+java:S6204å"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8†è£é‘2J$7616b831-a3f2-4809-a38e-90515fc489c3
+¾
+java:S6204ì"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8‡è£é‘2J$d28823d0-181c-4b8f-b2bc-9fe538f51097

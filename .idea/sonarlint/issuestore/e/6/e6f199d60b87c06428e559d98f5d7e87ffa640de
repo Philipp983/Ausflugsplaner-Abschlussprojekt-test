@@ -1,0 +1,11 @@
+
+n
+java:S1452;"&Remove usage of generic wildcard type.(Òî›ûÿÿÿÿ8ş´ŞÁ2J$af14ef84-a8a7-4bb3-b0fa-6686aa5bedce
+ƒ	java:S125K"<This block of commented-out lines of code should be removed.(÷ÔüĞúÿÿÿÿ8Û‹‹Â2J$13d0204d-291e-431a-9f0e-c88674caf5e6
+~	java:S125Q"<This block of commented-out lines of code should be removed.(ªúäº8àÅ¢œ2J$22aa5501-bbdf-41c9-9df8-a649ada2ec2c
+†
+java:S1128"CRemove this unused import 'com.brights.fi.backend.model.Einladung'.(–š§¥8­ÜÊæ2J$491528dc-8f14-45f5-a0ac-e39debd929ef
+”
+java:S1128"LRemove this unused import 'org.springframework.cache.annotation.CacheEvict'.(½Á¨ˆøÿÿÿÿ8­ÜÊæ2J$7756bb7c-9685-4705-9131-a92fd49fe7e8
+
+java:S1128"KRemove this unused import 'org.springframework.cache.annotation.Cacheable'.(İºØ“8­ÜÊæ2J$bcd24160-15eb-47fb-9cd7-89cd87269c60

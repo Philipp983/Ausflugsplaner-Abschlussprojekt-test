@@ -1,0 +1,482 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-background: rgba(0, 27, 38, 0.8);
+    --main-pink-color: rgb(190 114 108 / 49%);
+    --main-lavender-color: #a38dbb;
+    --main-blue-color: #2F5C8F;
+    --main-darkblue-color: #102c4d;
+    --main-gold-color: #deb992;
+    --main-green-color: #1ba098;
+    --shadow-color: rgba(142, 129, 192, 0.15);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.spinner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 75vh;
+}
+
+
+.triangle {
+    visibility: visible;
+    margin-left: 50vw;
+    height: 80px;
+    width: 80px;
+    background-color: #a38dbb;
+}
+
+.main-pic {
+    margin: 30px auto;
+    width: 280px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 2rem !important;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.1rem !important;
+    margin: 30px 0 10px 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: var(--main-gold-color);
+    margin-bottom: 10px;
+}
+
+.circle-container {
+    position: relative;
+    overflow: hidden;
+    max-width: 100vw;
+}
+
+.circle {
+    position: absolute;
+    z-index: 0;
+    border: 1px solid #deb992;
+    border-radius: 50%;
+    animation: move 25s linear infinite;
+    transform: translate(-50%, -50%);
+}
+
+.circle-1 {
+    top: 15%;
+    left: 10%;
+    width: 40vw;
+    min-width: 200px;
+    height: 40vw;
+    min-height: 200px;
+    animation-duration: 40s;
+}
+
+.circle-2 {
+    top: 15%;
+    left: 5%;
+    width: 30vw;
+    min-width: 150px;
+    height: 30vw;
+    min-height: 150px;
+    animation-duration: 35s;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    50% {
+        transform: translate(-50%, -50%) rotate(180deg) translate(20px, 20px);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+
+.ausflugerstellen-max-w-md {
+    max-width: 40rem;
+    color: white;
+}
+
+.bg-btn-green {
+    background-color: rgb(27, 160, 152, 1) !important;
+}
+
+.bg-btn-lavender,
+.delete-button {
+    background-color: var(--main-lavender-color) !important;
+}
+
+.bg-btn-green:hover,
+.bg-btn-lavender:hover,
+.delete-button:hover {
+    box-shadow: rgb(163, 141, 187) 0px 10px 20px -10px;
+}
+
+body, html {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background-image: url('https://i.ibb.co/pjTz4D8/paul-volkmer-q-Votvbsu-M-c-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f0f0f0;
+    font-size: 1.2rem;
+    overflow-x: hidden;
+    height: auto;
+    min-height: 100vh;
+}
+
+.navigation-menu {
+    width: 100vw;
+    font-size: 1rem;
+    backdrop-filter: blur(5.5px);
+}
+
+.menu {
+    z-index: 3 !important;
+}
+
+
+.max-height {
+    min-height: 200px !important;
+}
+
+.logo {
+    width: 60px;
+    margin-left: 60px;
+    padding-top: 0px;
+}
+
+.nav-benutzer-bild {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2c/Default_pfp.svg'); /* Default image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    margin-left: 0 !important;
+    margin-top: 0;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.custom-padding-top10 {
+    padding-top: 10px;
+}
+
+.text-align-right {
+    text-align: right;
+    justify-content: right;
+}
+
+.margin-left-90 {
+    margin-left: 90%;
+}
+
+.ma-r-1em {
+    margin-right: 1em;
+}
+
+.padding {
+    min-width: 200px;
+}
+
+.p-r-10 {
+    padding-right: 10px;
+}
+
+.hide-EinladungsMenu {
+    display: none;
+}
+
+.einladung-menu {
+    z-index: 99 !important;
+}
+
+.imessage{
+    height: 60px;
+}
+
+#footer {
+    color: white;
+    padding: 0 25px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#footer-justify {
+    justify-content: space-evenly;
+}
+
+.border-t {
+    border-top: 0px solid var(--main-darkblue-color);
+}
+
+.anmeldung,
+.registrieren,
+.ausflugerstellen,
+.background,
+.popup-content {
+    background: rgba(0, 31, 51, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(14, 18, 51, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.background {
+    z-index: 1;
+}
+
+.registrieren,
+.anmeldung {
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.gold-color {
+    color: var(--main-gold-color);
+}
+
+.p-l-1rem {
+    padding-left: 1rem !important;
+}
+
+.custom-shadow {
+    box-shadow: none;
+}
+
+.bg-gray-100 {
+    --tw-bg-opacity: 0.8;
+    background-color: rgb(243, 244, 246, 0.4);
+}
+
+.bg-custom-blue {
+    background-color: var(--main-green-color);
+}
+
+.bg-custom-blue:hover {
+    background-color: var(--main-green-color) !important;
+    box-shadow: rgba(27, 160, 152, 0.5) 0px 5px 15px !important;
+}
+
+.home {
+    min-height: 87vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-background);
+}
+
+.z-index {
+    z-index: 3;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.paddin-left-no{
+    margin-left: 0 !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.fotos-zum-auswaehlen {
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+.ausflug-liste-home {
+    margin-top: 70px;
+}
+
+#einladung-btn {
+    justify-content: center;
+}
+
+.einladungMessage {
+    position: absolute;
+    z-index: 1;
+    padding-top: 40px;
+    margin: auto;
+    width: 350px;
+    min-height: 190px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5.5px);
+}
+
+.width100 {
+    width: 100%;
+}
+
+.mb-4 {
+    font-size: 18px;
+}
+
+
+.map-container {
+    display: flex;
+    height: 75vh;
+    width: 105vw;
+    margin-top: 50px;
+    max-height: fit-content;
+}
+
+.sidebar {
+    width: 25vh;
+    min-width: 300px;
+    padding: 20px;
+    overflow-y: auto;
+    color: white;
+}
+
+.sidebar label {
+    display: block;
+    margin: 5px 0;
+    font-size: medium;
+    background-color: var(--main-background);
+}
+
+.sidebar input[type="radio"] {
+    margin-right: 5px;
+
+}
+
+.sidebar button {
+    font-size: small;
+    margin: 10px;
+}
+
+.route-details {
+    word-wrap: break-word;
+    min-width: 350px;
+    padding: 0 20px;
+    color: white;
+    font-size: medium;
+}
+
+.keine-ausfluege {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.trennen {
+    border-bottom: 3px solid var(--main-gold-color);
+
+}
+
+.min-h-screen {
+    min-height: 85vh;
+}
+
+/*@media (min-width: 1300px) {
+    .relative:hover .hide-EinladungsMenu {
+        display: block;
+        margin-top: 30px;
+        margin-left: 130px;
+    }
+}*/
+
+
+@media (min-width: 760px) and (max-width: 1100px) {
+    .navigation-menu {
+        font-size: 0.8rem;
+    }
+
+    .px-4 {
+        padding-left: 0;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 770px) {
+    .ma-r-1em {
+        margin-right: 2.5em;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+    .ma-r-1em {
+        margin-right: 0.5em;
+    }
+}
+
+@media (max-width: 700px) {
+    .keine-ausfluege {
+        flex-wrap: wrap;
+    }
+
+    .ausflug-filter {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .sidebar {
+        width: 100%;
+        max-width: 100% !important;
+        margin-right: 5% !important;
+    }
+
+    .map-container {
+        flex-direction: column;
+        margin: 5% 5% !important;
+        padding-right: 10%;
+        height: 100%;
+        min-height: 70vh;
+    }
+
+    .space-x-4 > :not([hidden]) ~ :not([hidden]) {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .circle-1,
+    .circle-2 {
+        top: 5%;
+    }
+}
+
+
+.google-maps-custom {
+    min-width: 350px !important;
+    min-height: 350px !important;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+
+

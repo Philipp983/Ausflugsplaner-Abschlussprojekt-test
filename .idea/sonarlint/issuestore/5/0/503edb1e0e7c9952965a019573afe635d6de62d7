@@ -1,0 +1,22 @@
+
+­
+java:S1192#"eDefine a constant instead of duplicating this literal "Ausflug konnte nicht gefunden werden" 7 times.(©Ë¿Âüÿÿÿÿ8ıÅÃ‹2J$b49c1ea5-dc5b-46c8-b11a-70c35efed991
+}
+java:S1854)":Remove this useless assignment to local variable "posted".(§ş«8µäƒÎ‘2J$0e27e352-2af4-4387-b242-d0c845085875
+n
+java:S1481&"+Remove this unused "posted" local variable.(ÇêÌÂ8·äƒÎ‘2J$ab41ec2a-c0fa-44c9-a26f-5e5fd73e873a
+ƒ	java:S1258"<This block of commented-out lines of code should be removed.(šÅãÃıÿÿÿÿ8ª¢òå‘2J$37851cae-a63c-41c4-b069-de9af033f6cd
+}
+java:S1854D":Remove this useless assignment to local variable "posted".(§ş«8ª¢òå‘2J$2a7ece52-5caf-46a9-9b99-7f906be9305d
+n
+java:S1481A"+Remove this unused "posted" local variable.(ÇêÌÂ8±¢òå‘2J$9f053661-b979-4d21-8d34-72a47b5434ba
+~	java:S125S"<This block of commented-out lines of code should be removed.(­’ôò8ºäƒÎ‘2J$c40649c3-2248-4828-a131-83935092685e
+	java:S125ƒ"<This block of commented-out lines of code should be removed.(úé”8ŒÆÃ‹2J$d350c5e6-6aca-4438-a0e8-79692dab5147
+„	java:S125Ô"<This block of commented-out lines of code should be removed.(ºš¿üÿÿÿÿ8‘ÆÃ‹2J$623fbcba-1441-4417-b573-c1eb9a154bcf
+	java:S125é"<This block of commented-out lines of code should be removed.(¡Ùë÷8‘ÆÃ‹2J$8b3e3370-2ab0-4d45-915f-cd56757e441a
+„	java:S125ˆ"<This block of commented-out lines of code should be removed.(„‡Ì†ùÿÿÿÿ8‘ÆÃ‹2J$1693906d-bf1c-4efa-b118-e8cb59f51964
+„	java:S125¦"<This block of commented-out lines of code should be removed.(ºš¿üÿÿÿÿ8‘ÆÃ‹2J$ca4e18d6-8086-40f3-af59-f3eddd10043c
+Š
+java:S1128"BRemove this unused import 'com.brights.fi.backend.model.Benutzer'.(ıÏ°—ûÿÿÿÿ8šÿĞ‘2J$6894cc1d-3751-4331-a629-f96a0926f0a2
+†
+java:S1128"DRemove this unused import 'com.brights.fi.backend.model.ProfilBild'.(Šª»d8šÿĞ‘2J$78a2bb75-f7fb-42e8-bc36-1b9426033dd2

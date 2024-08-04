@@ -1,0 +1,58 @@
+.benutzer-seite {
+    padding: 20px;
+    max-width: 600px;
+    min-height: 87vh;
+    padding-top: 5vh;
+    margin: auto;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+.profile-section h2,
+.profile-section p {
+    margin: 5px;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.profile-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.about-section {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about-section h3 {
+    margin: 0 0 10px 0;
+}
+
+.about-section p {
+    margin: 0;
+}
+
+.ueber-mich{
+    max-width: 800px;
+}
+
+.card-list {
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+}

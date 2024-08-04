@@ -1,0 +1,48 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.pagination-item {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.pagination-item.active {
+    font-weight: bold;
+    color: var(--main-gold-color);
+}
+
+.pagination-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.pagination-arrow:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-ellipsis {
+    margin: 0 5px;
+}
+
+/* Anchoring solution */
+.pagination-anchor {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    top: -60px; /* Adjust this value based on your layout */
+}

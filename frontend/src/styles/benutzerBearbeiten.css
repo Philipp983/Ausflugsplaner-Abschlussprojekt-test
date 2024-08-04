@@ -1,0 +1,101 @@
+/* Styles adapted to match the screenshot */
+
+body {
+    background: linear-gradient(to bottom right, #1e3c72, #2a5298);
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.p-relative{
+    position: relative;
+}
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 14px;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: #ddd;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.save-button {
+    background-color: #2a5298;
+    color: #fff;
+}
+
+.save-button:hover {
+    background-color: #256f33;
+}
+
+.cancel-button {
+    background-color:#fcfafa;
+    color: black;
+}
+
+.cancel-button:hover {
+    background-color: #a32421;
+}
+
+.delete-button {
+    background-color: #b92b27;
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.delete-button:hover {
+    background-color: #a32421;
+}
+.profil-bild {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    margin:10px auto;
+}
